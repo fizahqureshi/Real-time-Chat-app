@@ -1,0 +1,13 @@
+# Node projects ka heavy folder  kabhi GitHub par nahi jai
+node_modules/
+
+# Backend ki secret file (API keys, DB password waghera)
+# Security reason ki wajah se GitHub par upload nahi hoti
+backend/.env
+
+# Agar npm crash ho jaye to ye logs bante hain
+npm-debug.log*
+
+# Operating system ki bekaar files (Windows / Mac)
+.DS_Store
+Thumbs.db
